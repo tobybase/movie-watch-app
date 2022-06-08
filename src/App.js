@@ -15,7 +15,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route exact path='/' element={<Watchlist />} />
+          <Route path='/' element={<Watchlist />} />
 
           <Route path='/watched' element={<Watched />} />
 
